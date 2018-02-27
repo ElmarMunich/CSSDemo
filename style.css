@@ -4,28 +4,45 @@
 /*
 Comments are only to help PEOPLE read a code file. The
 computer ignores them.
-*/
-*
+
+Only used for finding the layout:
 {
    outline: 1px solid red !important;
 }
+*/
 h1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 40px;
   color: white;
-  background-color: 33BEBE;
-  height: 60px;
+  background-color: #33BEBE;
+  padding-top: 30px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  margin-top: 200px;
+  margin-right: 20%;
+  margin-bottom: 40px;
+  margin-left: 100px;
 }
 .app {
   display: -webkit-flex;
   display: flex;
 }
+.color {
+  background-color: #33BEBE;
+}
 .description {
-  color: 7C8B88;
-  font-size: large;
+  font-family: Verdana;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20%;
+  color: #7C8B88;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 705px;
+
 }
 /*
 .screenshot {
@@ -39,6 +56,7 @@ div  {
 }
 */
 img {
+  margin-left: 90px;
   max-width: 460px;
   padding: 10px;
   -webkit-box-sizing: border-box;
