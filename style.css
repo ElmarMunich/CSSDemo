@@ -42,19 +42,7 @@ h1 {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 705px;
-
 }
-/*
-.screenshot {
-  max-width: 460px;
-  color: blue;
-}
-
-div  {
-  margin-left: 10px;
-  width: 80%;
-}
-*/
 img {
   margin-left: 90px;
   max-width: 460px;
